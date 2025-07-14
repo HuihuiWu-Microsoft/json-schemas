@@ -382,7 +382,7 @@
             "items": {
               "enum": [
                 "team",
-                "personal",
+                "Personal",
                 "groupChat",
                 "copilot"
               ]
