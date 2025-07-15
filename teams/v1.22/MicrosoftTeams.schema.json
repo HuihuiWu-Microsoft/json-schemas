@@ -317,7 +317,7 @@
         ]
       }
     },
-    "botsUpdated": {
+    "bots": {
       "type": "array",
       "description": "The set of bots for this app. Currently only one bot per app is supported.",
       "maxItems": 1,
@@ -383,7 +383,7 @@
               "enum": [
                 "team",
                 "Personal",
-                "groupChat",
+                "groupchat",
                 "copilot"
               ]
             }
