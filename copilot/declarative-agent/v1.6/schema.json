@@ -286,7 +286,7 @@
                         "type": "string",
                         "description": "A JSON string that contains the file relative path for the embedded file. It is a required member.",
                         "minLength": 1,
-                        "pattern": "^(?!\\[\\[)(.*?)(?<!\\\\]\\\\])$"
+                        "pattern": "^(?!\\[\\[)(.*?)(?<!\\]\\])$"
                     }
                 },
                 "required": [
