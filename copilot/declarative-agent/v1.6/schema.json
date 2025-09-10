@@ -235,7 +235,7 @@
                     "embedded_resource_snapshot_id": {
                         "type": "string",
                         "description": "A JSON string identifier provisioned by a an external file container storage service that can be used to locate the embedded knowledge files.",
-                        "pattern": "^(?!\\[\\[)(.*?)(?<!\\\\]\\\\])$"
+                        "pattern": "^(?!\\[\\[)(.*?)(?<!\\]\\])$"
                     },
                     "files": {
                         "type": "array",
